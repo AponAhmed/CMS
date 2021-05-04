@@ -1,0 +1,180 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 29, 2018, 3:56:35 PM
+    Author     : nrb
+*/
+#AuditResult {
+    padding-top: 15px;
+}
+
+.SeoItemArea {
+    display: block;
+    padding: 2px 5px;
+    border: 1px solid #ddd;
+    margin-bottom: -1px;
+    position: relative;
+}
+
+.SeoPreview {
+    background: #fff;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: -2px;
+}
+.SeoItemAreaR {
+    overflow: hidden;
+}
+.removeLoadad {
+    position: absolute;
+    right: 6px;
+    top: -3px;
+    font-size: 19px;
+    display: none;
+    color: #f00;
+}
+.SeoItemAreaR > a {
+    width: 33%;
+    display: inline-block;
+    float: left;
+    padding: 0 10px;
+}
+.vsp-ok {
+    color: green;
+    background: url(../img/yes.png) no-repeat left;
+    padding-left: 20px;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+.vsp-bad {
+    color: red;
+    background: url(../img/no.png) no-repeat left;
+    padding-left: 20px;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+#termAdd .SEOpreviewer {
+    background: #fff;
+    margin-bottom: 0;
+}
+#termAdd > label {
+    position: relative;
+    display: block;
+}
+
+
+.lngMeta {
+    padding: 5px;
+    border: 1px solid #f0f0f0;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+#os_results h2 {
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 15px;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 5px;
+}
+.orangesoda_word_table {
+    margin-top: 15px;
+}
+.orangesoda_word_table tr th {
+    text-align: left;
+    font-size: 12px;
+    padding-bottom: 3px;
+}
+.orangesoda_word_table *{
+    font-size: 12px;
+}
+
+.seoViewerArea {
+    overflow: hidden;
+}
+.SEOpreviewer {
+    /* width: calc(100% - 240px); */
+    float: left;
+    /* margin-left: 26px; */
+    background: #f5f5f5;
+    padding: 15px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.seoUpdMsg p {
+    margin: 0;
+    padding: 2px 15px;
+    border-left: 2px solid;
+    background: #f3f3f3;
+}
+.seoUpdMsg {
+    position: absolute;
+    right: 0;
+    top: -34px;
+}
+
+.seoPrvClose {
+    position: absolute;
+    right: 8px;
+    top: 0px;
+    color: #999;
+    text-decoration: none;
+}
+.mBoxBody {
+    padding: 10px;
+    position: relative;
+}
+.seoPrvshow {
+    font-size: 12px;
+    position: absolute;
+    right: 20px;
+}
+.seoPrvClose:hover{
+    text-decoration: none;
+}
+.seoRobot {
+    max-width: 215px;
+    float: left;
+}
+
+.serpOUT {
+    margin: 0px !important;
+}
+.serpOUT h3{
+    color:#1a0dab !important;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+.serpOUT p.url{
+    color:#006621;
+    margin:0;
+}
+.serpOUT p.metaKey {
+    margin-top: 2px;
+    color:#545454;
+}
+#OmD {
+    margin: 2px 0px 10px 0;
+}
+
+.seoCount {
+    font-size: 11px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    color: #3d804a;
+}
+.CusMetaLabel {
+    width: 100%;
+    position: relative;
+}.seoCount * {
+    font-size: 11px;
+}
+#customQueryString{
+    margin-bottom: 8px;
+}

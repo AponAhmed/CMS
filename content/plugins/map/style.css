@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 18, 2021, 1:27:01 PM
+    Author     : apon
+*/
+
+#gmap{
+    position:relative;
+}
+.mapinfo {
+    position: absolute;
+    top: 11px;
+    left: 10px;
+    width: 227px;
+    background: #fff;
+    height: 75px;
+    padding: 5px 10px;
+}
+.mapTitle {
+    font-weight: 700;
+}
+.mapinfo p {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+@media only screen and (max-width: 768px) {
+    .mapinfo {
+        width: 217px;
+    }
+}

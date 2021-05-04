@@ -1,0 +1,96 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 24, 2018, 4:23:12 PM
+    Author     : nrb
+*/
+
+body {
+    font-family:arial;
+    background: #f6f6f6;
+    color:#666;
+    font-size:14px;
+}
+.login-container {
+	max-width: 300px;
+	margin: auto;
+	position: relative;
+	margin-top: 12%;
+}
+.loginBody {
+    background: #fff;
+    border-radius: 5px;
+    padding: 30px;
+    border: 1px solid #e9e9e9;
+}
+
+.cmsLogo {
+    max-width: 65px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 50%;
+    margin-top: -38px;
+    background: #fff;
+    position: absolute;
+    left: -38px;
+    top: 0;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 999999;
+}
+
+.cmsLogo::before {
+    content: "";
+    position: absolute;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    left: 0;
+    top: 0;
+    border: 1px solid #e9e9e9;
+    border-radius: 50%;
+}
+
+.cmsLogo img {
+    max-width: 50px;
+}
+
+.loginField {
+	width: 100%;
+	margin: 12px 0;
+}
+.loginField input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #e9e9e9;
+    font-size: 16px;
+    padding: 5px;
+}
+.loginfooter{
+    overflow: hidden;
+}
+.loginfooter input[type="submit"] {
+	border: 1px solid #054d7f;
+	background: #054d7f;
+	padding: 5px 15px;
+	border-radius: 3px;
+	color: #fff;
+	margin-top: 5px;
+	/* float: right; */
+}
+.frgt {
+	color: #666;
+	text-decoration: none;
+}
+.login-container .alert {
+	position: absolute;
+	top: -100px;
+	background: #fff;
+	width: calc(100% - 22px);
+	padding: 10px;
+	border: 1px solid #f0f0f0;
+	border-left: 2px solid #f00;
+}

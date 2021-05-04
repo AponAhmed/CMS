@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 2, 2018, 2:34:14 PM
+    Author     : nrb
+*/
+
+a {
+    color: #0c7ba1;
+}
+
+.admin-menus li.active {
+    background: #015571;
+}
+.admin-subMenu li.active {
+    background: #101214;
+}
+.admin-menus li a:hover {
+    background: #2d3339;
+}
+.admin-sidebar, .admin-menus {
+    background: #23282D;
+}
+.admin-sidebar {
+    background: #23282D;
+}
+.btn.btn-cms-primary {
+    background: #0986b0;
+    color: #fff;
+    border-color: #085b77;
+}
+.btn.btn-cms-default {
+	background: #f2f2f2;
+	border-color: #c0c0c0;
+	color: #666;
+}
+.ck-editor__editable {
+    background: #fff;
+}

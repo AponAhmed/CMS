@@ -1,0 +1,345 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 1, 2021, 5:06:24 PM
+    Author     : apon
+*/
+
+
+
+.menu > li > ul.sub-menu {
+    width: 232px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+.menu > li > ul.sub-menu {
+    width: 232px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+.sub-menu li a {
+    display: block;
+    border-bottom: 1px solid #ddd;
+} 
+.sub-menu li{
+    border: none;
+}
+.sub-menu .sub-menu {
+    position: inherit;
+    background: #eee;
+}
+.sub-menu .sub-menu > li > a {
+    padding-left: 25px;
+}
+.sub-menu .sub-menu .sub-menu > li > a {
+    padding-left: 35px;
+}
+
+
+/*Mega menu*/ 
+.mega-menu > .sub-menu{
+    display: flex;
+}
+.mega-menu.has_sub {
+    position: relative;
+}
+.mega-menu > .sub-menu {
+    background: #fff;
+    border: 1px solid #f6f6f6;
+}
+.mnu {
+    min-width: 240px;
+}
+
+.mega-sub .sub-part .sub-menu .sub-menu > li > a,.mega-menu .sub-menu .sub-menu > li > a, .mega-menu .sub-menu .sub-menu .sub-menu > li > a{
+    padding: 4px 15px;
+}
+.mega-sub .sub-part .sub-menu > li > a {
+    padding: 10px 15px;
+}
+.sub-menu li a {
+    display: block;
+}
+
+.mega-menu > .sub-menu > li > a, .sub-part > .sub-menu > li > a{
+    font-weight: 500;
+}
+.mega-menu .sub-menu li a {
+    border: none;
+}
+
+.mega-menu .sub-menu .sub-menu {
+    background: transparent;
+    position: initial;
+}
+/*.mega-menu.nav-item:hover > .sub-menu {
+    left: initial;
+    top: 40px;
+}*/
+.menu li.mega-menu > a {
+    padding: 30px 15px;
+}
+.menu > li.mega-menu > .sub-menu {
+    padding: 25px 0;
+    top: 40px;
+}
+.mega-menu .sub-part > .sub-menu {
+    display: flex;
+}
+.mega-menu .sub-part {
+    flex-basis: 82%;
+}
+.mega-menu .menu-sc-part {
+    flex-basis: 18%;
+    padding: 0 10px;
+    border-right: 1px solid #ddd;
+}
+.menu-sc-part ul li a {
+    padding: 6px 10px;
+    font-weight: 500;
+}
+.mega-menu .sub-menu.mega-sub {
+    right:initial;
+}
+.mega-menu .sub-menu li {
+    border-bottom: none;
+}
+.mega-menu ul {
+    padding: 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /*Menu*/
+    .navbar-toggler-icon {
+        background-image: none !important;
+        padding: 9px 0;
+    }
+    .navbar-toggler {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999999999;
+        padding: 3px 10px;
+        border: 0;
+        border-radius: 0;
+        background: #0e4f7f;
+    }
+    .bar {
+        background: #fff;
+        height: 1px;
+        width: 25px;
+        display: block;
+        margin-bottom: 5px;
+    }
+    .mnu {
+        display: flex;
+        align-items: initial;
+        flex-direction: column;
+    }
+    .navbar-nav.mr-auto.menu {
+        flex-direction: column;
+        width: 100%;
+    }
+    .mnu .searchBox input.searchbox-input {
+        width: 100%;
+        border: 1px solid #ddd;
+    }
+    .mnu .searchBox input.searchbox-input:focus {
+        width: 100%;
+    }
+    .menu li a {
+        display: block;
+        border-bottom: 1px solid #f4f4f4;
+    }
+    .menu > li > ul.sub-menu, .menu > li > ul.sub-menu .sub-menu {
+        display: block;
+        position: initial;
+        width: 100%;
+        border: none;
+        background: #fff;
+        display: none;
+    }
+    .sub-menu > li > a {
+        padding-left: 25px;
+    }
+    .sub-menu .sub-menu > li > a {
+        padding-left: 35px;
+    }
+    .sub-menu .sub-menu .sub-menu > li > a {
+        padding-left: 45px;
+    }
+
+    .menu > li.has_sub > a::before {  
+        display: none;
+    }
+
+    .has_sub_trgg {
+        position: absolute;
+        top: 3px;
+        right: 4px;
+        padding: 12px;
+    }
+    .has_sub_trgg::before {
+        content: "";
+        position: absolute;
+        left: 7px;
+        top: 10px;
+        border: 5px solid transparent;
+        border-top-color: #191919;
+    }
+    .has_sub_trgg::after {
+        content: "";
+        position: absolute;
+        left: 7px;
+        top: 9px;
+        border: 5px solid transparent;
+        border-top-color: #fff;
+    }
+    .mnu .searchBox {
+        margin: 15px;
+    }
+    #navbarSupportedContent {
+        position: fixed;
+        left: 0;
+        top: 0;
+        padding-top: 54px;
+        background: #fff;
+        z-index: 99999;
+        height: 100%;
+        transform: translate(-100%);
+        transition: .2s cubic-bezier(.65,.05,.36,1);
+        border-right: 1px solid #ddd;
+    }
+    .body-openNav {
+        margin-left: 240px;
+        overflow-x: hidden;
+        transition: .2s cubic-bezier(.65,.05,.36,1);
+        position: fixed;
+        width: 100%;
+    }
+    #navbarSupportedContent.openNav {
+        transform: translate(0px);
+        overflow-y: auto;
+    }
+    .navbar-toggler.taggOpen .navbar-toggler-icon .bar:first-child {
+        display: block;
+        transform: rotate(45deg);
+        margin-top: 15px;
+        transition: .3s;
+        background: #000;
+    }
+    .navbar-toggler.taggOpen .navbar-toggler-icon .bar:last-child {
+        display: block;
+        transform: rotate(-45deg);
+        margin-top: -6px;
+        transition: .3s;
+        background: #000;
+    }
+    .navbar-toggler.taggOpen .navbar-toggler-icon .bar {
+        display: none;
+    }
+    .navbar-toggler.taggOpen{
+        background: transparent;
+    }
+
+
+    /*Mega Menu*/ 
+    .navbar-collapse {
+        align-items: flex-start;
+    }
+    .mega-menu .mega-sub, .mega-menu .mega-sub .sub-menu {
+        flex-direction: column;
+    }
+    .menu li.mega-menu > a {
+        padding: 10px 15px;
+    }
+    .sub-menu{
+        display: none;
+        position: initial;
+        width:auto !important;
+    }
+    .sub-part > ul.sub-menu {
+        display: block !important;
+    }
+    .mega-menu > .sub-menu.mega-sub {
+        min-width: auto;
+        display:none;
+    }
+    .sub-menu.open {
+        display: flex !important;
+        flex-direction: column;
+    }
+    .sub-menu.mega-sub.open {
+        flex-direction: column-reverse;
+    }
+    .menu > li.mega-menu > .sub-menu {
+        padding: 0px;
+    }
+    .mega-menu > .sub-menu > li > a, .sub-part > .sub-menu > li > a {
+        font-weight: normal;
+    }
+    .menu > li > a {
+        font-weight: 500;
+    }
+    .nonopen {
+        display: none;
+    }
+    .mega-menu .menu-sc-part {
+        padding: 0;
+    }
+    .menu > li > .has_sub_trgg.cls::after {
+        content: "×";
+        left: 2px;
+        top: -5px;
+        font-size: 20px;
+        color: #fd4f4f;
+        line-height: 1;
+    }
+    .mnu {
+        min-width: 240px;
+        height: 100%;
+        overflow-x: auto;
+    }
+    .menu > li > .has_sub_trgg.cls::before {
+        content: "";
+        border: none;
+    }
+    .menu-sc-part ul li a {
+        padding: 6px 15px;
+        font-weight: normal;
+    }
+    .menu .has_sub_trgg {
+        top: 7px;
+        right: 4px;
+    }
+    .mega-sub .sub-part .sub-menu > li > a {
+        border-bottom: 1px solid #f0f0f0;
+    }
+    .mega-menu .sub-menu > li > .sub-menu > li > a {
+        border: none;
+        padding: 4px 15px;
+    }
+    .mega-menu .sub-menu > li > a {
+        padding: 10px 15px;
+    }
+    .mega-menu .sub-menu > li > .sub-menu {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        padding-left: 10px;
+    }
+    .menu-sc-part {
+        margin: 15px 0;
+        padding: 15px;
+    }
+    .menu-sc-part ul li a {
+        padding: 5px 15px;
+        font-weight: normal;
+        border: none !important;
+    }
+
+
+}
